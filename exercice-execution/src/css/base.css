@@ -1,0 +1,31 @@
+body {
+    font-family: var(--ff-base);
+    font-size: var(--fs-base);
+    color: var(--clr-neutral-900);
+    background: var(--bg-gradient);
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
+h1 {
+    font-size: var(--fs-preset-1);
+}
+
+h2 {
+    font-size: var(--fs-preset-2);
+}
+
+h3 {
+    font-size: var(--fs-preset-3);
+}

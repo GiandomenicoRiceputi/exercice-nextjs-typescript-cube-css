@@ -1,0 +1,114 @@
+:root {
+    /* =========================
+     COLORS (The Palette)
+     ========================= */
+
+    /* Neutrals */
+    --clr-neutral-900: #21214D;
+    --clr-neutral-600: #57577B;
+    --clr-neutral-300: #9393B7;
+    --clr-neutral-200: #CBCDD0;
+    --clr-neutral-0: #FFFFFF;
+
+    /* Primary */
+    --clr-primary-700: #2A4CD5;
+    --clr-primary-600: #4865D8;
+    --clr-primary-200: #C7D3F7;
+    --clr-primary-100: #E0E6FA;
+
+    /* Moods (Semantic) */
+    --clr-mood-very-sad: #E60013;
+    /* Red 700 */
+    --clr-mood-sad: #FF9B99;
+    /* Red 300 */
+    --clr-mood-neutral: #FFC97C;
+    /* Amber 300 */
+    --clr-mood-happy: #89E780;
+    /* Green 300 */
+    --clr-mood-very-happy: #89CAFF;
+    /* Blue 300 */
+    --clr-mood-indigo: #B8B1FF;
+    /* Indigo 200 */
+
+    /* =========================
+     TYPOGRAPHY (The Typescale)
+     ========================= */
+    --ff-base: 'Reddit Sans', sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+
+    /* Viewport range: 375px - 1440px */
+    --fs-preset-1: clamp(2.875rem, 2.8011rem + 0.3521vw, 3.25rem);
+    /* 46-52px */
+    --fs-preset-2: clamp(2rem, 1.9014rem + 0.4695vw, 2.5rem);
+    /* 32-40px */
+    --fs-preset-3: clamp(1.75rem, 1.7007rem + 0.2347vw, 2rem);
+    /* 28-32px */
+    --fs-preset-4: 1.5rem;
+    /* 24px */
+    --fs-preset-5: 1.25rem;
+    /* 20px */
+    --fs-base: 1rem;
+    /* 16px */
+
+    /* =========================
+     SPACING (The Rhythm)
+     ========================= */
+    --spacing-0: 0;
+    --spacing-025: 0.125rem;
+    /* 2px */
+    --spacing-050: 0.25rem;
+    /* 4px */
+    --spacing-075: 0.375rem;
+    /* 6px */
+    --spacing-100: 0.5rem;
+    /* 8px */
+    --spacing-125: 0.625rem;
+    /* 10px */
+    --spacing-150: 0.75rem;
+    /* 12px */
+    --spacing-200: 1rem;
+    /* 16px */
+    --spacing-250: 1.25rem;
+    /* 20px */
+    --spacing-300: 1.5rem;
+    /* 24px */
+    --spacing-400: 2rem;
+    /* 32px */
+    --spacing-500: 2.5rem;
+    /* 40px */
+    --spacing-600: 3rem;
+    /* 48px */
+    --spacing-800: 4rem;
+    /* 64px */
+    --spacing-1000: 5rem;
+    /* 80px */
+
+    /* =========================
+     RADIUS (The Softness)
+     ========================= */
+    --radius-0: 0;
+    --radius-050: 0.25rem;
+    /* 4px */
+    --radius-075: 0.375rem;
+    /* 6px */
+    --radius-100: 0.5rem;
+    /* 8px */
+    --radius-125: 0.625rem;
+    /* 10px */
+    --radius-150: 0.75rem;
+    /* 12px */
+    --radius-200: 1rem;
+    /* 16px */
+    --radius-250: 1.25rem;
+    /* 20px */
+    --radius-300: 1.5rem;
+    /* 24px */
+    --radius-full: 9999px;
+    /* Pill/Circle */
+
+    /* Gradients  */
+    --bg-gradient: linear-gradient(180deg, #FFFFFF 0%, #E0E6FA 100%);
+}

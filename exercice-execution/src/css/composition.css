@@ -1,0 +1,46 @@
+/* COMPOSITION LAYER */
+/* The Wrapper: Centers content and sets max boundaries */
+.wrapper {
+    max-width: 90rem;
+    margin-inline: auto;
+    padding-inline: var(--spacing-400);
+}
+
+/* The Flow: Vertical rhythm (The Owl) */
+.flow>*+* {
+    margin-top: var(--flow-space, 1em);
+}
+
+.flow-tight {
+    --flow-space: .5em;
+}
+
+.flow-large {
+    --flow-space: var(--spacing-400);
+}
+
+/* The Grid: Auto-fit grid for cards or dashboard */
+/* Usage: class="grid" style="--grid-min-item-size: 300px" */
+.grid {
+    display: grid;
+    gap: var(--spacing-400);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--grid-min-item-size, 20rem)), 1fr))
+}
+
+/* The Split: Sidebar layout (ideal for the Dashboard) */
+.split {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-400);
+}
+
+.split> :first-child {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.split> :last-child {
+    flex-basis: 0;
+    flex-grow: 2;
+    min-width: 50%;
+}

@@ -1,0 +1,52 @@
+.p-400 {
+    padding: var(--spacing-400);
+}
+
+.p-600 {
+    padding: var(--spacing-600);
+}
+
+
+.mt-400 {
+    margin-top: var(--spacing-400);
+}
+
+.mx-auto {
+    margin-inline: auto;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-bold {
+    font-weight: var(--fw-bold);
+}
+
+.text-preset-1 {
+    font-size: var(--fs-preset-1);
+    line-height: 1.1;
+    letter-spacing: .02em;
+}
+
+.text-preset-4 {
+    font-size: var(--fs-preset-4);
+}
+
+.text-preset-5 {
+    font-size: var(--fs-preset-5);
+}
+
+.color-primary {
+    color: var(--clr-primary-700);
+}
+
+.color-white {
+    color: var(--clr-neutral-0);
+}
