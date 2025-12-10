@@ -20,8 +20,8 @@ export default function Login() {
                 <div className="card flow p-600">
 
                     <header className="flow">
-                        <h1 className="text-preset-1">Welcome Back!!</h1>
-                        <p className="text-preset-4">Log in to continue traking your mood and sleep</p>
+                        <h1 className="text-preset-1">Welcome back!</h1>
+                        <p className="text-preset-4">Log in to continue tracking your mood and sleep</p>
                     </header>
 
                     <form action="" className="flow">
